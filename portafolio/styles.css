@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Estilos de la sección "Sobre mí" */
+  #about {
+    
+    padding: 30px;
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    color: #221c1c;
+    font-style: italic
+
+
+  }
+
+  .fondo{
+    background-color: rgba(194, 194, 194, 0.404);
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  
+  
+  /* Estilos de los educacion y habilidades */
+  .habilidades {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e1e1e1;
+    margin-top: 20px;
+  }
+
+  .educacion {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e1e1e1;
+  }
+  
+  
+ /* Estilos de la sección "Contacto" */
+#contact {
+  background-color: #f9f9f9;
+  padding: 30px;
+}
+
+form {
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
